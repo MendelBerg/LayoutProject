@@ -6,7 +6,7 @@
   flex-direction: column;
   background-color: #f4f5f7;
 
-  @include media {
+  @include for-large-up {
     padding: 73px 0px 72px 0px;
     flex-direction: row;
     align-items: flex-start;
@@ -14,7 +14,7 @@
   &__illustration {
     max-width: 200px;
 
-    @include media {
+    @include for-large-up {
       height: 296px;
       max-width: 269px;
       margin-right: 121px;
@@ -41,7 +41,7 @@
   }
 
   &__form {
-    @include media {
+    @include for-large-up {
       display: flex;
       margin-top: 26px;
     }
@@ -50,7 +50,7 @@
   &__email {
     margin: 0;
     margin-top: 40px;
-    border: 1px solid rgba(43, 41, 45, 0.2);
+    border: 1px solid #2b292d33;
     border-radius: 2px;
     height: 48px;
     width: 100%;
@@ -58,7 +58,7 @@
     font-size: 18px;
     line-height: 13px;
 
-    @include media {
+    @include for-large-up {
       margin-top: 0;
     }
 
@@ -71,11 +71,11 @@
     margin-top: 12px;
     flex-shrink: 0;
 
-    @media screen and (max-width: 399px) {
+    @include for-large-down {
       width: 100%;
     }
 
-    @include media {
+    @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
     }
@@ -84,7 +84,7 @@
   &__terms {
     font-size: 14px;
     line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
+    color: #2b292d99;
     margin-top: 10px;
   }
 

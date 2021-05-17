@@ -1,7 +1,7 @@
 .customers {
   display: flex;
   flex-direction: column;
-  @include media {
+  @include for-large-up {
     width: 1140px;
     margin: auto;
     display: flex;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-around;
 
-    @include media {
+    @include for-large-up {
       flex: 1;
       justify-content: space-around;
     }
@@ -32,11 +32,11 @@
     justify-content: center;
     flex: 1;
 
-    &:last-child{
+    &:last-child {
       border-right: none;
     }
 
-    @include media {
+    @include for-large-up {
       border: none;
     }
   }

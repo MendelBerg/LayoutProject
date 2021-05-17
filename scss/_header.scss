@@ -9,12 +9,12 @@
   & .logo__description {
     display: none;
 
-    @include media {
+    @include for-large-up {
       display: block;
     }
   }
 
-  @include media {
+  @include for-large-up {
     background-color: transparent;
     width: 1140px;
     height: 62px;
@@ -30,7 +30,7 @@
     margin-left: auto;
     background: transparent;
 
-    @include media {
+    @include for-large-up {
       display: none;
     }
   }
@@ -44,7 +44,7 @@
 
   &__button {
     display: none;
-    @include media {
+    @include for-large-up {
       display: block;
     }
   }
@@ -57,7 +57,7 @@
     height: 48px;
     margin-right: 13px;
 
-    @include media {
+    @include for-large-up {
       width: 60px;
       height: 60px;
       margin-right: 15px;
@@ -77,10 +77,10 @@
   }
 
   &__description {
-    @include media {
+    @include for-large-up {
       font-size: 18px;
       line-height: 25px;
-      color: rgba(43, 41, 45, 0.6);
+      color: #2b292d99;
     }
   }
 }
@@ -113,7 +113,7 @@
     margin-left: 11px;
   }
 
-  @include media {
+  @include for-large-up {
     display: block;
     margin: 7px 56px 0px auto;
   }

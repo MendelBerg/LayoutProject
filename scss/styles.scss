@@ -1,4 +1,6 @@
-@import '_mixins';
+@import '_variables';
+@import '_brakepoints';
+@import '_common';
 
 * {
   box-sizing: border-box;
@@ -13,11 +15,11 @@ html {
 .page {
   width: 100%;
 
-  @media screen and (max-width: 399px) {
+  @include for-large-down {
     overflow-x: hidden;
   }
 
-  @include media {
+  @include for-large-up {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
@@ -29,13 +31,12 @@ html {
 .top-section {
   background-color: #f3c6bd;
 
-  @include media {
+  @include for-large-up {
     padding-top: 39px;
     background-color: #f3c6bd;
   }
 }
 
-@import '_tools';
 @import '_header';
 @import '_headline';
 @import '_about';

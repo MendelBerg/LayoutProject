@@ -52,14 +52,14 @@
     padding: 26px 25px;
     display: flex;
     margin-bottom: 20px;
-    border: 1px solid rgba(43, 41, 45, 0.2);
+    border: 1px solid #2b292d33;
 
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
 
     &:hover {
-      background: rgba(49, 65, 197, 1);
+      background: #3141c5;
       cursor: pointer;
 
       .jobs__name {

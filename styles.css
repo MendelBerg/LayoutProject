@@ -1,3 +1,92 @@
+.action-button {
+  height: 48px;
+  width: 160px;
+  border-radius: 2px;
+  background-color: #3040c4;
+  border: none;
+  padding: 17px 28px 18px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 13px;
+  color: #fff;
+}
+
+.action-button_wide {
+  width: 247px;
+}
+
+.action-button_white {
+  background-color: #fff;
+  color: #3040c4;
+  width: 158px;
+}
+
+.action-button_black-text {
+  color: #000;
+}
+
+._container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+.visual__img {
+  margin-bottom: 15px;
+}
+
+.visual__text {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #2b292d99;
+  margin: 0;
+}
+
+.content > * {
+  margin: 0;
+}
+
+.content__intro {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #f1592b;
+}
+
+.content__intro_blue {
+  color: #0189d1;
+}
+
+.content__intro_black {
+  color: #2b292d;
+}
+
+.content__title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.content__text {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+@media screen and (min-width: 400px) {
+  .hide_desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .hide_mobile {
+    display: none;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -42,95 +131,6 @@ html {
   .top-section {
     padding-top: 39px;
     background-color: #f3c6bd;
-  }
-}
-
-.action-button {
-  height: 48px;
-  width: 160px;
-  border-radius: 2px;
-  background-color: #3040c4;
-  border: none;
-  padding: 17px 28px 18px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 13px;
-  color: #fff;
-}
-
-.action-button_wide {
-  width: 247px;
-}
-
-.action-button_white {
-  background-color: #fff;
-  color: #3040c4;
-  width: 158px;
-}
-
-.action-button_black-text {
-  color: #000;
-}
-
-._container {
-  width: 1140px;
-  margin: 0px auto;
-}
-
-.visual__img {
-  margin-bottom: 15px;
-}
-
-.visual__text {
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: rgba(43, 41, 45, 0.6);
-  margin: 0;
-}
-
-.content > * {
-  margin: 0;
-}
-
-.content__intro {
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 34px;
-  color: #f1592b;
-}
-
-.content__intro_blue {
-  color: #0189D1;
-}
-
-.content__intro_black {
-  color: #2B292D;
-}
-
-.content__title {
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-  margin-top: 24px;
-  margin-bottom: 30px;
-}
-
-.content__text {
-  font-size: 24px;
-  line-height: 34px;
-}
-
-@media screen and (min-width: 400px) {
-  .hide_desktop {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 399px) {
-  .hide_mobile {
-    display: none;
   }
 }
 
@@ -244,7 +244,7 @@ html {
   .logo__description {
     font-size: 18px;
     line-height: 25px;
-    color: rgba(43, 41, 45, 0.6);
+    color: #2b292d99;
   }
 }
 
@@ -592,7 +592,7 @@ html {
   margin-top: 19px;
   font-size: 14px;
   line-height: 22px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 .features {
@@ -773,7 +773,7 @@ html {
 .order__email {
   margin: 0;
   margin-top: 40px;
-  border: 1px solid rgba(43, 41, 45, 0.2);
+  border: 1px solid #2b292d33;
   border-radius: 2px;
   height: 48px;
   width: 100%;
@@ -826,7 +826,7 @@ html {
 .order__terms {
   font-size: 14px;
   line-height: 22px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
   margin-top: 10px;
 }
 
@@ -908,7 +908,7 @@ html {
   font-size: 18px;
   line-height: 26px;
   margin-top: 26px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 @media screen and (min-width: 400px) {
@@ -996,7 +996,7 @@ html {
 .nav-links__item {
   font-size: 18px;
   line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 .footer-links {
@@ -1040,7 +1040,7 @@ html {
 
 .terms__item {
   text-decoration: none;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 .terms__item:last-child {
@@ -1056,7 +1056,7 @@ html {
   .social-links {
     margin-left: auto;
     margin-top: 15px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -1097,7 +1097,7 @@ html {
 .logo-vertical__description {
   font-size: 18px;
   line-height: 25px;
-  color: rgba(43, 41, 45, 0.6);
+  color: #2b292d99;
 }
 
 @media screen and (min-width: 400px) {
