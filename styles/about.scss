@@ -4,9 +4,9 @@
   background-color: $color-light;
 
   @include for-large-up {
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    margin: auto;
     padding: 76px 135px 77px 126px;
   }
 }
@@ -25,16 +25,16 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: bold;
     font-size: 22px;
     line-height: 32px;
-    margin: 0;
   }
 
   &__text {
-    font-size: 22px;
-    line-height: 32px;
     margin-bottom: 0;
     margin-top: 6px;
+    font-size: 22px;
+    line-height: 32px;
   }
 }

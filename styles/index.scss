@@ -1,6 +1,6 @@
-@import '_variables';
-@import '_brakepoints';
-@import '_common';
+@import 'variables';
+@import 'brakepoints';
+@import 'common';
 
 * {
   box-sizing: border-box;
@@ -20,9 +20,10 @@ html {
   }
 
   @include for-large-up {
-    width: 1400px;
     margin: auto;
+    width: 1400px;
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
   }
@@ -37,12 +38,12 @@ html {
   }
 }
 
-@import '_header';
-@import '_headline';
-@import '_about';
-@import '_customers';
-@import '_tips';
-@import '_features';
-@import '_audience';
-@import '_order';
-@import '_footer';
+@import 'header';
+@import 'headline';
+@import 'about';
+@import 'customers';
+@import 'tips';
+@import 'features';
+@import 'audience';
+@import 'order';
+@import 'footer';
