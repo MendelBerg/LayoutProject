@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-**https://github.com/MendelBerg/project-1**
+## https://github.com/MendelBerg/project-1
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
