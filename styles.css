@@ -822,6 +822,7 @@ html {
 
 .cards__item {
   width: 290px;
+  margin-bottom: 15px;
 }
 
 .cards__item:last-child {
@@ -849,7 +850,6 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
@@ -859,7 +859,7 @@ html {
   cursor: pointer;
 }
 
-.user-card:hover .cards__title {
+.user-card:hover .user-card__title {
   color: #fff;
 }
 
