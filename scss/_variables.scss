@@ -1,20 +1,26 @@
-// $color-yellow-light: #fcf0e366;
-// $color-white-light: #f2f2f2;
 $color-white: #fff;
-// $color-light-grey: #e3e3e3;
-$color-blue: #0189d1;
-// $color-light-blue: #3040c4; 
-$color-dark-blue: #3141c5;
-// $color-dark: #2b292d;
-// $color-grey: #d5d4d5;
 $color-light: #f4f5f7;
+$color-light-blue: #3040c4; 
+$color-peach: #f3c6bd;
 
 $text-color-green: #009b4d;
-// $text-color-light-grey: #2b292d99;
+$text-color-light-grey: #2b292d99;
 $text-color-orange: #f1592b;
-$text-color-blue: #3141c6;
+// *blue
+$text-color-lighter-blue: #0189d1;
+$text-color-blue: #3142c6;
+$text-color-dark-blue: #3141c5;
+// *black
 $text-color-black: #000;
 $text-color-white: $color-white;
 $text-color-dark: #2b292d;
 
-$border-color: #e3e3e3;
+$border-color-light: #e3e3e3;
+// *dark
+$border-color-lighter-dark: #2b292d26;
+$border-color-email-dark: #2b292d33;
+$border-color-light-dark: #00000026;
+$border-color-dark: $text-color-dark;
+// *blue
+$border-color-blue: $text-color-blue;
+

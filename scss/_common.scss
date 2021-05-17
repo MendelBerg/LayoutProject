@@ -2,27 +2,27 @@
   height: 48px;
   width: 160px;
   border-radius: 2px;
-  background-color: #3040c4;
+  background-color: $color-light-blue;
   border: none;
   padding: 17px 28px 18px;
 
   font-weight: bold;
   font-size: 18px;
   line-height: 13px;
-  color: #fff;
+  color: $text-color-white;
 
   &_wide {
     width: 247px;
   }
 
   &_white {
-    background-color: #fff;
-    color: #3040c4;
+    background-color: $color-white;
+    color: $text-color-lighter-blue;
     width: 158px;
   }
 
   &_black-text {
-    color: #000;
+    color: $text-color-black;
   }
 }
 
@@ -40,7 +40,7 @@
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    color: #2b292d99;
+    color: $text-color-light-grey;
     margin: 0;
   }
 }
@@ -54,14 +54,14 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 34px;
-    color: #f1592b;
+    color: $text-color-orange;
 
     &_blue {
-      color: #0189d1;
+      color: $text-color-blue;
     }
 
     &_black {
-      color: #2b292d;
+      color: $text-color-dark;
     }
   }
 

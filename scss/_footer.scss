@@ -5,7 +5,7 @@
   flex-direction: column;
 
   &__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $border-color-dark;
     width: 100%;
     opacity: 0.1;
     margin: 0;
@@ -46,7 +46,7 @@
   font-size: 18px;
   line-height: 26px;
   margin-top: 26px;
-  color: #2b292d99;
+  color: $text-color-light-grey;
   @include for-large-up {
     display: block;
   }
@@ -107,7 +107,7 @@
   &__item {
     font-size: 18px;
     line-height: 30px;
-    color: #2b292d99;
+    color: $text-color-light-grey;
   }
 }
 .footer-links {
@@ -135,7 +135,7 @@
 
   &__item {
     text-decoration: none;
-    color: #2b292d99;
+    color: $text-color-light-grey;
 
     &:last-child {
       margin-right: 0;
@@ -182,7 +182,7 @@
   &__description {
     font-size: 18px;
     line-height: 25px;
-    color: #2b292d99;
+    color: $text-color-light-grey;
   }
 
   @include for-large-up {

@@ -9,7 +9,7 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
+  color: $text-color-dark;
 }
 
 .page {
@@ -29,11 +29,11 @@ html {
 }
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-peach;
 
   @include for-large-up {
     padding-top: 39px;
-    background-color: #f3c6bd;
+    background-color: $color-peach;
   }
 }
 

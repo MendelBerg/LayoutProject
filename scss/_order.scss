@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #f4f5f7;
+  background-color: $color-light;
 
   @include for-large-up {
     padding: 73px 0px 72px 0px;
@@ -50,7 +50,7 @@
   &__email {
     margin: 0;
     margin-top: 40px;
-    border: 1px solid #2b292d33;
+    border: 1px solid $border-color-email-dark;
     border-radius: 2px;
     height: 48px;
     width: 100%;
@@ -63,7 +63,7 @@
     }
 
     &::placeholder {
-      color: #2b292d;
+      color: $text-color-dark;
     }
   }
 
@@ -84,11 +84,11 @@
   &__terms {
     font-size: 14px;
     line-height: 22px;
-    color: #2b292d99;
+    color: $text-color-light-grey;
     margin-top: 10px;
   }
 
   &__terms-link {
-    color: #3142c6;
+    color: $text-color-blue;
   }
 }
