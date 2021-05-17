@@ -1,0 +1,50 @@
+@import '_mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+}
+
+.page {
+  width: 100%;
+
+  @media screen and (max-width: 399px) {
+    overflow-x: hidden;
+  }
+
+  @include media {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.top-section {
+  background-color: #f3c6bd;
+
+  @include media {
+    padding-top: 39px;
+    background-color: #f3c6bd;
+  }
+}
+
+@import '_tools';
+@import '_header';
+@import '_headline';
+@import '_about';
+@import '_customers';
+@import '_tips';
+@import '_features';
+// @import '_inbox';
+// @import '_communicate';
+// @import '_audience';
+// @import '_hiring';
+@import '_order';
+@import '_footer';

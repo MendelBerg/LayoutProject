@@ -1,0 +1,40 @@
+.about {
+  padding: 46px 15px;
+  width: 100%;
+  background-color: #f4f5f7;
+
+  @include media {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 76px 135px 77px 126px;
+  }
+}
+
+.article {
+  &:last-child {
+    margin-top: 20px;
+
+    @include media {
+      margin: 0;
+    }
+  }
+
+  @include media {
+    width: 555px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-top: 6px;
+  }
+}
